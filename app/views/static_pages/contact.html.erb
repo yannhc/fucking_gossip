@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="nav-link" <%= link_to "THE FUCKING GOSSIP PROJECT",static_pages_home_path %><span class="sr-only">(current)</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+      <a class="nav-link" <%= link_to "LA TEAM CROQUETTE",static_pages_team_path %><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" <%= link_to "Nous contacter",static_pages_contact_path %><span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h1>COMMENT NOUS CONTACTER?</h1>
+<h3>C'est très simple, tu remplies le formulaire en dessous et on te recontacte quand on a le temps (ou pas), ok?</h3>
+<head>
+<body>
+<br>
+<form id="myform" class="cssform" action="">
+
+	<p><label for="user">Nom :</label>
+	<input type="text" id="user" value="" /></p>
+
+	<p><label for="emailaddress">Email :</label>
+	<input type="text" id="emailaddress" value="" /></p>
+
+	<p><label for="comments">Message :</label>
+	<textarea id="comments" rows="5" cols="25"></textarea></p>
+
+	<p><label for="comments">Sexe :</label>
+	Homme :<input type="radio" name="sex" />
+	Femme :<input type="radio" name="sex" /></p>
+
+	<p><label for="terms">Conditions g&eacute;n&eacute;rales accept&eacute;es</label>
+	<input type="checkbox" id="terms" class="boxes" /></p>
+
+	<p><div style="margin-left: 150px;">
+		<input type="submit" value="Envoyer" />
+		<input type="reset" value="Reset" />
+	</div></p>
+</form>
+<body>

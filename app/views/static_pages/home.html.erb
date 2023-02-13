@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">THE GOSSIP FUCKING PROJECT</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+      <a class="nav-link" <%= link_to "LA TEAM CROQUETTE",static_pages_team_path %><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" <%= link_to "Nous contacter",static_pages_contact_path %><span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h1>BIENVENU SUR LE PROJET GOSSIP BY THP</h1>
+<h2>Le principe</h2>
+<h5>Ici tu vas pouvoir balancer un maximum de potins sur tes collègues</h5>
+<h5>Lâches toi, fais nous rêver, on veut un maximum d'éclats de rires</h5>
+<h5>N'hésites pas à faire un tour sur la présentation de l'équipe</h5>
+<head>
+<body>
+<br>
+<h2>Salut à toi <%=@first_name%></h2>
+
+<h3> Voici la liste des cochonneries <% @gossips.each do |gossip| %> </h3>
+
+
+    <ul>
+      <li> <%=gossip.title%> -> </li>
+    </ul>
+    
+    <% end %>
