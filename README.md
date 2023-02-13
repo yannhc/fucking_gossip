@@ -1,3 +1,5 @@
+SUITE A PROBLEME DE PUSH (comme pour le dernier projet) , J'AI SEULEMENT MIS LES FICHIERS DANS LESQUELLES NOUS AVONS REELLEMENT TRAVAILLE. NOUS FERONS DONC LA CORRECTION EN PARTAGE D'ECRAN.
+
 # README
 
 Encore un exercice de mise en ligne de potins mais où la difficulté augmente.
@@ -7,5 +9,4 @@ Manipulation des liens, des routes.
 
 Une belle prise de tête mais qui nous fait dormir moins con que la veille !
 
-# the_fucking_gossip
-# fucking_gossip
+
